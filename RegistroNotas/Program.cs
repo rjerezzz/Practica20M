@@ -10,4 +10,27 @@ debe  presentar un menu:
 */
 
 int[] notas = new int[25];
-int opcion;
+
+/*Agregar*/
+
+for (int i = 0; i < notas.Length; i++)
+{
+    bool valido = false;
+    do {
+        Console.Write($"Ingrese la nota del estudiante {i + 1} (0-100): ");
+        if (int.TryParse(Console.ReadLine(), out notas[i]))
+        {
+            valido = true;
+        }
+
+    }while(!valido);
+
+
+
+}
+
+/*Mostrar*/
+
+/*Mostrar los 3 primeros lugares*/
+
+/*Mostrar las notas en orden descendente*/
