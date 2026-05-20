@@ -8,3 +8,6 @@ debe  presentar un menu:
 4. mostrar las notas en orden descendente
 5. salir
 */
+
+int[] notas = new int[25];
+int opcion;
