@@ -11,3 +11,11 @@ debe  presentar un menu:
 
 int[] notas = new int[25];
 int opcion;
+
+//Demostrar los primeros 3 lugares
+Console.WriteLine($"Las tres mejores notas son: ");
+
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine(notas[i]);
+}
